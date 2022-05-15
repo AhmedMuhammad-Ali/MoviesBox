@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B16FC328314D5F004CAD74 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 60B16FC228314D5F004CAD74 /* Kingfisher */; };
+		60B16FDB28314E90004CAD74 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 60B16FDA28314E90004CAD74 /* Moya */; };
 		60C92DCF2831435600128376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C92DCE2831435600128376 /* AppDelegate.swift */; };
 		60C92DD12831435600128376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C92DD02831435600128376 /* SceneDelegate.swift */; };
 		60C92DD32831435600128376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C92DD22831435600128376 /* ViewController.swift */; };
@@ -56,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B16FDB28314E90004CAD74 /* Moya in Frameworks */,
+				60B16FC328314D5F004CAD74 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,10 @@
 			dependencies = (
 			);
 			name = MoviesBox;
+			packageProductDependencies = (
+				60B16FC228314D5F004CAD74 /* Kingfisher */,
+				60B16FDA28314E90004CAD74 /* Moya */,
+			);
 			productName = MoviesBox;
 			productReference = 60C92DCB2831435600128376 /* MoviesBox.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,10 @@
 				Base,
 			);
 			mainGroup = 60C92DC22831435600128376;
+			packageReferences = (
+				60B16FC128314D5F004CAD74 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				60B16FD928314E90004CAD74 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 60C92DCC2831435600128376 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -618,6 +630,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60B16FC128314D5F004CAD74 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.2.2;
+			};
+		};
+		60B16FD928314E90004CAD74 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60B16FC228314D5F004CAD74 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B16FC128314D5F004CAD74 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		60B16FDA28314E90004CAD74 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B16FD928314E90004CAD74 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 60C92DC32831435600128376 /* Project object */;
 }
