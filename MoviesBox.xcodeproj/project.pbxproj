@@ -80,6 +80,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60B16FDF2831527A004CAD74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60B16FE128315463004CAD74 /* View Related */,
+				60C92DCE2831435600128376 /* AppDelegate.swift */,
+				60C92DD02831435600128376 /* SceneDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60B16FE028315308004CAD74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60C92DD72831435800128376 /* Assets.xcassets */,
+				60C92DDC2831435800128376 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60B16FE128315463004CAD74 /* View Related */ = {
+			isa = PBXGroup;
+			children = (
+				60C92DD22831435600128376 /* ViewController.swift */,
+				60C92DD42831435600128376 /* Main.storyboard */,
+				60C92DD92831435800128376 /* LaunchScreen.storyboard */,
+			);
+			path = "View Related";
+			sourceTree = "<group>";
+		};
+		60B16FE2283154EC004CAD74 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		60C92DC22831435600128376 = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +139,9 @@
 		60C92DCD2831435600128376 /* MoviesBox */ = {
 			isa = PBXGroup;
 			children = (
-				60C92DCE2831435600128376 /* AppDelegate.swift */,
-				60C92DD02831435600128376 /* SceneDelegate.swift */,
-				60C92DD22831435600128376 /* ViewController.swift */,
-				60C92DD42831435600128376 /* Main.storyboard */,
-				60C92DD72831435800128376 /* Assets.xcassets */,
-				60C92DD92831435800128376 /* LaunchScreen.storyboard */,
-				60C92DDC2831435800128376 /* Info.plist */,
+				60B16FE2283154EC004CAD74 /* Networking */,
+				60B16FE028315308004CAD74 /* Resources */,
+				60B16FDF2831527A004CAD74 /* Classes */,
 			);
 			path = MoviesBox;
 			sourceTree = "<group>";
@@ -474,7 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MoviesBox/Info.plist;
+				INFOPLIST_FILE = MoviesBox/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -501,7 +533,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MoviesBox/Info.plist;
+				INFOPLIST_FILE = MoviesBox/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
