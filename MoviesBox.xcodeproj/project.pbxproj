@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		60B16FC328314D5F004CAD74 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 60B16FC228314D5F004CAD74 /* Kingfisher */; };
 		60B16FDB28314E90004CAD74 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 60B16FDA28314E90004CAD74 /* Moya */; };
+		60B16FE52831729B004CAD74 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B16FE42831729B004CAD74 /* Category.swift */; };
 		60C92DCF2831435600128376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C92DCE2831435600128376 /* AppDelegate.swift */; };
 		60C92DD12831435600128376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C92DD02831435600128376 /* SceneDelegate.swift */; };
 		60C92DD32831435600128376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C92DD22831435600128376 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60B16FE42831729B004CAD74 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		60C92DCB2831435600128376 /* MoviesBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C92DCE2831435600128376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60C92DD02831435600128376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		60B16FDF2831527A004CAD74 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				60B16FE32831728B004CAD74 /* Model */,
 				60B16FE128315463004CAD74 /* View Related */,
 				60C92DCE2831435600128376 /* AppDelegate.swift */,
 				60C92DD02831435600128376 /* SceneDelegate.swift */,
@@ -114,6 +117,14 @@
 			children = (
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		60B16FE32831728B004CAD74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B16FE42831729B004CAD74 /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		60C92DC22831435600128376 = {
@@ -327,6 +338,7 @@
 				60C92DD32831435600128376 /* ViewController.swift in Sources */,
 				60C92DCF2831435600128376 /* AppDelegate.swift in Sources */,
 				60C92DD12831435600128376 /* SceneDelegate.swift in Sources */,
+				60B16FE52831729B004CAD74 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
